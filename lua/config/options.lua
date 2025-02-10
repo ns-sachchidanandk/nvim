@@ -4,12 +4,10 @@ vim.opt.undofile = true --> Enable persistent undo
 -- UI & Display
 vim.opt.number = true --> Enable line numbers
 vim.opt.relativenumber = true --> Enable relative line numbers
-vim.opt.numberwidth = 2
+vim.opt.numberwidth = 5
 vim.opt.cursorline = true --> Highlight the current line
--- vim.opt.signcolumn = "yes" --> Always show the sign column
--- vim.opt.colorcolumn = "120" --> Highlight column at 80 characters
-vim.opt.textwidth = 132 --> Automatically wrap text at 80 characters
-vim.opt.scrolloff = 8 --> Keep 5 lines of context above/below the cursor
+vim.opt.textwidth = 95 --> Automatically wrap text at 80 characters
+vim.opt.scrolloff = 12 --> Keep 5 lines of context above/below the cursor
 vim.opt.sidescrolloff = 8 --> Keep 8 columns of context on the left/right
 
 -- Tabs & Indentation
